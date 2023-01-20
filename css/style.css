@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+/********************/
+/* 1. Configurações Gerais
+/* 2. Topo e Rodapé
+/* 3. Capa e Título
+/* 4. Área e Info
+/* 5. Cards
+/* 6. Galeria Imagens
+/********************/
+
+
+/********************/
+/* 1. Configurações Gerais
+/********************/
+
+html,
+body {
+    height: 100%;
+}
+
+/********************/
+/* 2. Topo e Rodapé
+/********************/
+
+.topo,
+.rodape {
+    width: 100%;
+    background-color: #f97100;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+/********************/
+/* 3. Capa e Título
+/********************/
+
+.img-capa {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 30px 0;
+}
+
+/********************/
+/* 4. Área e Info
+/********************/
+
+.area {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.info {
+    margin: 30px auto;
+}
+
+.info p {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.info a {
+    color: #0000ff;
+}
+
+/********************/
+/* 5. Cards
+/********************/
+
+.card {
+    width: 320px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb500;
+    margin-right: 30px;
+    border-radius: 12px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0;
+}
+
+.card h2 {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 29px;
+}
+
+.informacoes {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.card ul {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: sans-serif;
+    line-height: 32px;
+}
+
+.card-sombra {
+    box-shadow: inset 0 0 15px 12px #ed8317;
+}
+
+/********************/
+/* 6. Galeria Imagens
+/********************/
+
+.area-image img {
+    width: 315px;
+    margin: 10px;
+}
+
+.area-image {
+    overflow-x: scroll;
+    margin: 0 auto 40px auto;
+}
+
+.image-sombra {
+    box-shadow: 10px 10px 10px #939393;
+}
+
+@media (max-width:660px) {
+
+    .area {
+        width: 100%;
+    }
+
+    .card {
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0 0 15px 12px #ed8317;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+
+    }
+}
