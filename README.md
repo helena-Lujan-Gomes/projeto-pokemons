@@ -4,7 +4,7 @@
 
 #Projeto Pokémons
 
-- Esse projeto foi um desafio de HTML e CSS - prática Box Model🔥🚀 
+- Esse projeto foi um desafio de HTML e CSS - prática Box Model 🔥🚀 
 - #️⃣desafios #️⃣crescimento #️⃣carreira dev
 * **[Projeto Pokémons](https://helena-lujan-gomes.github.io/projeto-pokemons/)**
 
